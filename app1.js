@@ -4,9 +4,16 @@ function connexion(){
     var mdp = document.querySelector('#mdp').value;
     var cadreInfo = document.querySelector('#cadre-info');
     var info = document.querySelector('#info');
+    
 
-    if (nom == 'a'| mdp == 'b') {
-        info.innerHTML = 'Bonjour ' + nom + ' Merci de nous avoir contacter, nos service vont vous contacter sur : ' + email;
+    if (nom !="a" | mdp!="b") {
         cadreInfo.hidden = false;
+        info.innerHTML = 'non connecté';
+        lien.hidden = true;
+    }
+    else{
+        cadreInfo.hidden = false;
+        info.innerHTML = 'connecté';
+        lien.hidden = false;
     }
 }
