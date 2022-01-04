@@ -11,7 +11,7 @@ function calculTTC(){
     var info = document.querySelector('#info');
 
     if (montant != '' && nombre != '' && tva != '') {
-        info.innerHTML = 'Montant TTC : ' + result + '€';
+        info.innerHTML = 'Montant TTC : ' + result.toFixed(2) + '€';
         cadreInfo.hidden = false;
     }
     
