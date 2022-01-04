@@ -1,0 +1,29 @@
+.corps{
+    background-color: gainsboro;
+}
+
+.titre{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.calcul{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+#nb{
+    background-color: transparent;
+    width: 60%;
+    font-size: 22px;
+}
+
+#consigne{
+    color: gray;
+    font-size: 10px;
+}
