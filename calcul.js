@@ -1,4 +1,7 @@
-/*
+
+a = 0;
+b = 0;
+
 function calcul(){
     a = 0;
     b = 0;
@@ -6,7 +9,6 @@ function calcul(){
     a = Math.floor(Math.random() * max);
     b = Math.floor(Math.random() * max);
 }
-*/
 
 function resultat(a,b){
 
