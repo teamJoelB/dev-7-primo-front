@@ -34,7 +34,7 @@ function calculAge(){
     }else{
         info2.innerHTML = "TU N'AS PAS L'AGE REQUIS, TU N'AS PAS HONTE ?!";
         cadreInfo2.hidden = false;
-    }
+    } 
 }
 
 function zoneInterdite(){
