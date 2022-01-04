@@ -25,6 +25,7 @@ function calculAge(){
     var cadreInfo2 = document.querySelector('#cadre-info2');
     var info = document.querySelector('#info');
     if ( 2022-annee_naissance>18){
+        cadreInfo2.hidden = true;
         info.innerHTML = "Redirection vers la page demandée dans 3s (NSFW)";
         cadreInfo.hidden = false;
         const myTimeout = setTimeout(zoneInterdite, 3000);
