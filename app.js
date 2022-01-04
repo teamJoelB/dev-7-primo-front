@@ -24,13 +24,15 @@ function calculAge(){
     var cadreInfo = document.querySelector('#cadre-info');
     var cadreInfo2 = document.querySelector('#cadre-info2');
     var info = document.querySelector('#info');
+    var info2 = document.querySelector('#info2');
+
     if ( 2022-annee_naissance>18){
         cadreInfo2.hidden = true;
         info.innerHTML = "Redirection vers la page demandée dans 3s (NSFW)";
         cadreInfo.hidden = false;
         const myTimeout = setTimeout(zoneInterdite, 3000);
     }else{
-        info.innerHTML = "TU N'AS PAS L'AGE REQUIS, TU N'AS PAS HONTE ?!";
+        info2.innerHTML = "TU N'AS PAS L'AGE REQUIS, TU N'AS PAS HONTE ?!";
         cadreInfo2.hidden = false;
     }
 }
