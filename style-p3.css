@@ -1,0 +1,43 @@
+.cadre-titre{
+    margin: auto;
+    width: 50%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.titre{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color : orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.ma-police{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20 px;
+    color: black;
+}
+
+.titre-ZI{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color : hotpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.cadre-titre-ZI{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(64, 162, 219);
+    border-radius: 10px;
+}
+
+.ZI-center{
+    margin-left: 500px;
+   
+}

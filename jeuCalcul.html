@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcul mental</title>
     <link rel="stylesheet" href="styleCalcul.css">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -27,6 +28,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
 </head>
 
 <body class="corps">
@@ -37,7 +39,24 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-2">
             <div class="calcul">
-                5 + 5 =
+                <script type="text/javascript">
+                    var a = Math.floor(Math.random() * 10);
+                    document.write(a);
+                </script>
+                +
+                <script type="text/javascript">
+                    var b = Math.floor(Math.random() * 10);
+                    document.write(b);
+                </script>
+                =
+            </div>
+            <br>
+            <div class="consigne">
+                Score : 
+                <script type="text/javascript">
+                    var score = 0;
+                    document.write(score);
+                </script>
             </div>
         </div>
         <div class="col-sm-2">
@@ -45,13 +64,22 @@
                 <div class="form-group">
                     <input type="text" required id="nb" class="form-control">
                 </div>
+                <button type="submit" class="btn peach-gradient btn-block" onclick="resultat(a,b)">
+                    SOUMETTRE
+                </button>
             </form>
         </div>
         <div class="col-sm-4">
             <div class="consigne">
                 Vous avez 10 secondes pour marquer le plus de points possible !
+                <button type="button" class="btn purple-gradient btn-block" onclick="calcul()">
+                    Go !
+                </button>
             </div>
         </div>
     </div>
+    
+    <script src="calcul.js"></script>
 </body>
+
 </html>
