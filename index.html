@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV-7-2021</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</head>
+
+<body>
+    <div class="content mt-4">
+        <div class="cadre-titre">
+            <h1 class="titre">ICI c'est chez les dev-7-2021</h1>
+        </div>
+
+        <div class="center">
+            <img src="img/1.jpg" alt="terapie-dev7" width="40%">
+        </div>
+
+        <div>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur unde atque porro minus aut odio
+                fugit earum, nisi sequi, aperiam vitae ipsam voluptate magnam iure ea quibusdam adipisci tenetur
+                nesciunt?
+
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium doloremque iure, vero eveniet
+                debitis temporibus nemo doloribus illo quidem iste dicta, quibusdam unde voluptatibus recusandae
+                consectetur ipsum. Pariatur, error ab?
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, fuga ex distinctio, officiis
+                facere fugit dolore at possimus laborum cupiditate quos beatae molestias error eum consequuntur,
+                expedita nam animi voluptatibus!
+
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore veniam sed, ipsum error minima
+                libero
+                id maxime ipsam odit ad. Iure magnam officiis dolorum assumenda reprehenderit, delectus quas quod
+                similique.
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid incidunt facilis quia voluptatibus
+                temporibus deserunt deleniti natus rerum, voluptatem atque et! Perferendis, aut neque tenetur a
+                error
+                aperiam dolor tempora.
+
+            </p>
+        </div>
+
+
+        <div class="row ma-police">
+            <div class="col-sm-4">
+                <div class="card p-3 ls-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ducimus qui, obcaecati ullam illum
+                    ratione, iste at quas reiciendis recusandae expedita reprehenderit! Corporis nam nihil animi
+                    asperiores
+                    dolor, tempore nobis?
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusantium quidem a beatae iste
+                quibusdam enim dolor velit cupiditate, veritatis nemo itaque voluptatum molestiae cum nihil, magni animi
+                reprehenderit possimus.
+            </div>
+
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi consequuntur similique est a iure commodi
+                neque ut porro, ipsum totam. Eaque aliquid qui harum explicabo inventore laudantium est dolores cumque!
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="ma-police">
+            <h3>Nous contacter ?</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div>
+                        <form onsubmit="return false">
+                            <div class="form-group">
+                                <label for="" class="grey-text">Nom complet</label>
+                                <input type="text" required id="nom" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="grey-text">Email</label>
+                                <input type="email" required id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="grey-text">Entrer votre message</label>
+                                <textarea name="" required class="form-control" id="msg" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-block"
+                                onclick="sendMessage()">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <h5>DEV-7-2021</h5>
+                    <br>
+                    <address>12 Avenue du dev</address>
+                    <address>92240 Malakoff</address>
+
+                    <br><br>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert" hidden id="cadre-info">
+                        <p id="info"></p>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

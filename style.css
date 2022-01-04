@@ -1,0 +1,37 @@
+.titre{
+    color: steelblue;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Noto Serif';
+}
+
+.cadre-titre{
+    margin: auto;
+    width: 30%;
+    background-color: aquamarine;
+    border-radius: 3px;
+}
+
+.center{
+    text-align: center;
+}
+
+.content{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.description{
+    letter-spacing: 2px;
+    font-family: 'Noto Serif';
+    color: darkgray;
+}
+
+.ma-police{
+    font-family: 'Noto Serif';
+}
+
+.ls-2{
+    letter-spacing: 2px;
+}
